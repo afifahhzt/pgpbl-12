@@ -37,7 +37,7 @@
 										<div class="form-group">
 											<label for="jenis"><strong>Kategori Laporan</strong></label>
 											<select class="form-control text-primary" id="jenis" name="jenis">
-												<option value=Jalan">Jalan</option>
+												<option value="Jalan">Jalan</option>
 												<option value="Jembatan">Jembatan</option>
 												<option value="Bencana">Bencana</option>
 												<option value="Lainnya">Lainnya</option>
@@ -68,12 +68,28 @@
 									</div>
 								</div>
 
+								<div class="row" id="dampakDropdown" style="display: none;">
+									<div class="col-sm">
+										<div class="form-group">
+											<label for="dampak"><strong>Dampak</strong></label>
+											<select class="form-control text-primary" id="dampak" name="dampak">
+												<option value="Macet">Macet</option>
+												<option value="Kecelakaan">Kecelakaan</option>
+												<option value="Meninggal">Meninggal</option>
+												<option value="Logistik">Logistik</option>
+												<option value="Terlambat">Terlambat</option>
+												<option value="Cedera">Cedera</option>
+												<option value="Lainnya">Lainnya</option>
+											</select>
+										</div>
+									</div>
+								</div>
 								<div class="row">
 									<div class="col-sm">
 										<div class="form-group">
 											<label for="catatan"><strong>Catatan</strong></label>
 											<textarea type="text" class="form-control text-primary" id="catatan" name="catatan"
-												placeholder="catatan"rows="3"></textarea>
+												placeholder="catatan" rows="3"></textarea>
 										</div>
 									</div>
 								</div>
